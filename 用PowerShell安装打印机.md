@@ -34,7 +34,7 @@ echo done...
 1. 添加打印机驱动
 1. 添加打印机，完成
 
-```powershell{.line-numbers}
+```powershell {.line-numbers}
 #删除旧驱动，先删printerdriver
 remove-printerdriver -name "FF Apeos 3060 PCL 6"
 #再删windowsdriver,但pnputil 删驱动只能删以oem*.inf命名方式的驱动，先查驱动的文件名
