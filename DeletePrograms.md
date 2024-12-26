@@ -4,7 +4,7 @@
 1.  Get-AppxPackage powershell 7无法正常工作(win10)
 因此，使用注册表来删除程序
 
-```poweshell 
+```powershell 
 $Uninstall_path = 'HKLM:\Software\Microsoft\Windows\CurrentVersion\Uninstall'
 $res = dir $Uninstall_path #dir -> get-item
 #显示软件列表
